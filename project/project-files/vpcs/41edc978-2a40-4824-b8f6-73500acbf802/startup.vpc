@@ -1,0 +1,3 @@
+set pcname Marketing_Private
+ip 10.133.2.3 10.133.2.1 24
+ip 2001:82:0:2::3/64

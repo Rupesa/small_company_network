@@ -1,0 +1,31 @@
+Dec 22 17:18:56.750 HYPERVISOR: Release 0.2.17-amd64/Darwin (tag 2017072410)
+Dec 22 17:18:56.751 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 55082.
+Dec 22 17:18:56.763 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 22 17:18:56.764 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/ruisantos/Desktop/fr/project/project/project-files/dynamips 
+Dec 22 17:18:56.764 GENERAL: working_dir=/Users/ruisantos/Desktop/fr/project/project/project-files/dynamips
+Dec 22 17:18:56.764 HYPERVISOR: exec_cmd: ethsw create Switch4 
+Dec 22 17:18:57.676 HYPERVISOR: exec_cmd: nio create_udp udp-df67aeff-9607-4070-bab1-6a01c14d203a 10013 127.0.0.1 10012 
+Dec 22 17:18:57.676 HYPERVISOR: exec_cmd: ethsw add_nio Switch4 udp-df67aeff-9607-4070-bab1-6a01c14d203a 
+Dec 22 17:18:57.677 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-df67aeff-9607-4070-bab1-6a01c14d203a 1 
+Dec 22 17:18:58.424 HYPERVISOR: exec_cmd: nio create_udp udp-dc395f3a-65e1-4049-a9fd-1d70bdce6699 10026 127.0.0.1 10027 
+Dec 22 17:18:58.424 HYPERVISOR: exec_cmd: ethsw add_nio Switch4 udp-dc395f3a-65e1-4049-a9fd-1d70bdce6699 
+Dec 22 17:18:58.438 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-dc395f3a-65e1-4049-a9fd-1d70bdce6699 1 
+Dec 22 17:30:49.420 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-df67aeff-9607-4070-bab1-6a01c14d203a 3 
+Dec 22 17:30:49.420 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-dc395f3a-65e1-4049-a9fd-1d70bdce6699 1 
+Dec 22 17:31:11.858 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-df67aeff-9607-4070-bab1-6a01c14d203a 3 
+Dec 22 17:31:11.859 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-dc395f3a-65e1-4049-a9fd-1d70bdce6699 4 
+Dec 22 17:31:29.601 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-df67aeff-9607-4070-bab1-6a01c14d203a 3 
+Dec 22 17:31:29.601 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-dc395f3a-65e1-4049-a9fd-1d70bdce6699 4 
+Dec 22 17:31:41.910 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-df67aeff-9607-4070-bab1-6a01c14d203a 3 
+Dec 22 17:31:41.911 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-dc395f3a-65e1-4049-a9fd-1d70bdce6699 4 
+Dec 22 17:32:17.204 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-df67aeff-9607-4070-bab1-6a01c14d203a 3 
+Dec 22 17:32:17.204 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-dc395f3a-65e1-4049-a9fd-1d70bdce6699 4 
+Dec 23 00:24:12.861 HYPERVISOR: exec_cmd: nio bind_filter udp-dc395f3a-65e1-4049-a9fd-1d70bdce6699 2 capture 
+Dec 23 00:24:12.864 HYPERVISOR: exec_cmd: nio setup_filter udp-dc395f3a-65e1-4049-a9fd-1d70bdce6699 2 en10mb /Users/ruisantos/Desktop/fr/project/project/project-files/captures/Switch4_Ethernet1_to_ESW1_FastEthernet11.pcap 
+Dec 23 00:25:23.874 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-df67aeff-9607-4070-bab1-6a01c14d203a 3 
+Dec 23 00:25:23.874 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch4 udp-dc395f3a-65e1-4049-a9fd-1d70bdce6699 1 
+Dec 23 00:25:39.866 HYPERVISOR: exec_cmd: nio unbind_filter udp-dc395f3a-65e1-4049-a9fd-1d70bdce6699 2 
+Dec 30 11:45:13.550 HYPERVISOR: exec_cmd: ethsw delete Switch4 
+Dec 30 11:45:13.593 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 30 11:45:13.927 HYPERVISOR: Stopped.
+Dec 30 11:45:13.928 GENERAL: reset done.

@@ -1,0 +1,3 @@
+set pcname Datacenter_Public
+ip 200.123.193.66 200.123.193.65 26
+ip 2001:82:0:1::3/64

@@ -1,0 +1,37 @@
+Dec 22 17:18:56.657 HYPERVISOR: Release 0.2.17-amd64/Darwin (tag 2017072410)
+Dec 22 17:18:56.657 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 55044.
+Dec 22 17:18:56.666 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 22 17:18:56.667 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/ruisantos/Desktop/fr/project/project/project-files/dynamips 
+Dec 22 17:18:56.667 GENERAL: working_dir=/Users/ruisantos/Desktop/fr/project/project/project-files/dynamips
+Dec 22 17:18:56.667 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Dec 22 17:18:57.214 HYPERVISOR: exec_cmd: nio create_udp udp-db562a0e-8ef6-41d8-89a1-354bd8a26969 10001 127.0.0.1 10000 
+Dec 22 17:18:57.214 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-db562a0e-8ef6-41d8-89a1-354bd8a26969 
+Dec 22 17:18:57.217 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-db562a0e-8ef6-41d8-89a1-354bd8a26969 1 
+Dec 22 17:18:57.280 HYPERVISOR: exec_cmd: nio create_udp udp-bd25a2d3-8a38-4f70-ba40-eeaebe6a3f58 10003 127.0.0.1 10002 
+Dec 22 17:18:57.280 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-bd25a2d3-8a38-4f70-ba40-eeaebe6a3f58 
+Dec 22 17:18:57.291 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-bd25a2d3-8a38-4f70-ba40-eeaebe6a3f58 1 
+Dec 22 17:18:57.734 HYPERVISOR: exec_cmd: nio create_udp udp-f6b69540-6fc0-4b76-956c-7f8ff7560f6e 10014 127.0.0.1 10015 
+Dec 22 17:18:57.734 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-f6b69540-6fc0-4b76-956c-7f8ff7560f6e 
+Dec 22 17:18:57.752 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-f6b69540-6fc0-4b76-956c-7f8ff7560f6e 1 
+Dec 22 17:28:47.187 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-db562a0e-8ef6-41d8-89a1-354bd8a26969 1 
+Dec 22 17:28:47.188 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-bd25a2d3-8a38-4f70-ba40-eeaebe6a3f58 2 
+Dec 22 17:28:47.188 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-f6b69540-6fc0-4b76-956c-7f8ff7560f6e 1 
+Dec 22 17:29:06.711 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-db562a0e-8ef6-41d8-89a1-354bd8a26969 1 
+Dec 22 17:29:06.712 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-bd25a2d3-8a38-4f70-ba40-eeaebe6a3f58 2 
+Dec 22 17:29:06.712 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch1 udp-f6b69540-6fc0-4b76-956c-7f8ff7560f6e 1 
+Dec 22 19:56:44.165 HYPERVISOR: exec_cmd: nio bind_filter udp-db562a0e-8ef6-41d8-89a1-354bd8a26969 2 capture 
+Dec 22 19:56:44.166 HYPERVISOR: exec_cmd: nio setup_filter udp-db562a0e-8ef6-41d8-89a1-354bd8a26969 2 en10mb /Users/ruisantos/Desktop/fr/project/project/project-files/captures/PC1_Ethernet0_to_Switch1_Ethernet0.pcap 
+Dec 22 19:57:08.565 HYPERVISOR: exec_cmd: nio unbind_filter udp-db562a0e-8ef6-41d8-89a1-354bd8a26969 2 
+Dec 22 19:57:16.504 HYPERVISOR: exec_cmd: nio bind_filter udp-f6b69540-6fc0-4b76-956c-7f8ff7560f6e 2 capture 
+Dec 22 19:57:16.505 HYPERVISOR: exec_cmd: nio setup_filter udp-f6b69540-6fc0-4b76-956c-7f8ff7560f6e 2 en10mb /Users/ruisantos/Desktop/fr/project/project/project-files/captures/Switch1_Ethernet2_to_ESW2_FastEthernet10.pcap 
+Dec 22 19:57:43.462 HYPERVISOR: exec_cmd: nio unbind_filter udp-f6b69540-6fc0-4b76-956c-7f8ff7560f6e 2 
+Dec 24 00:51:09.561 HYPERVISOR: exec_cmd: nio bind_filter udp-f6b69540-6fc0-4b76-956c-7f8ff7560f6e 2 capture 
+Dec 24 00:51:09.563 HYPERVISOR: exec_cmd: nio setup_filter udp-f6b69540-6fc0-4b76-956c-7f8ff7560f6e 2 en10mb /Users/ruisantos/Desktop/fr/project/project/project-files/captures/Switch1_Ethernet2_to_ESW2_FastEthernet10.pcap 
+Dec 24 00:51:21.045 HYPERVISOR: exec_cmd: nio unbind_filter udp-f6b69540-6fc0-4b76-956c-7f8ff7560f6e 2 
+Dec 24 00:51:25.290 HYPERVISOR: exec_cmd: nio bind_filter udp-f6b69540-6fc0-4b76-956c-7f8ff7560f6e 2 capture 
+Dec 24 00:51:25.290 HYPERVISOR: exec_cmd: nio setup_filter udp-f6b69540-6fc0-4b76-956c-7f8ff7560f6e 2 en10mb /Users/ruisantos/Desktop/fr/project/project/project-files/captures/Switch1_Ethernet2_to_ESW2_FastEthernet10.pcap 
+Dec 24 00:52:57.883 HYPERVISOR: exec_cmd: nio unbind_filter udp-f6b69540-6fc0-4b76-956c-7f8ff7560f6e 2 
+Dec 30 11:45:13.547 HYPERVISOR: exec_cmd: ethsw delete Switch1 
+Dec 30 11:45:13.613 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 30 11:45:13.927 HYPERVISOR: Stopped.
+Dec 30 11:45:13.927 GENERAL: reset done.

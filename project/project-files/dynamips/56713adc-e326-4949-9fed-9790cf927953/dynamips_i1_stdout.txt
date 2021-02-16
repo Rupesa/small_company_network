@@ -1,0 +1,18 @@
+Cisco Router Simulation Platform (version 0.2.17-amd64/Darwin unstable)
+Copyright (c) 2005-2011 Christophe Fillot.
+Build date: Nov  8 2017 02:03:33
+
+Log file: writing to dynamips_i1_log.txt
+Hypervisor TCP control server started (IP 127.0.0.1 port 55044).
+NIO udp-db562a0e-8ef6-41d8-89a1-354bd8a26969: capturing to file '/Users/ruisantos/Desktop/fr/project/project/project-files/captures/PC1_Ethernet0_to_Switch1_Ethernet0.pcap'
+NIO udp-db562a0e-8ef6-41d8-89a1-354bd8a26969: ending packet capture.
+NIO udp-f6b69540-6fc0-4b76-956c-7f8ff7560f6e: capturing to file '/Users/ruisantos/Desktop/fr/project/project/project-files/captures/Switch1_Ethernet2_to_ESW2_FastEthernet10.pcap'
+NIO udp-f6b69540-6fc0-4b76-956c-7f8ff7560f6e: ending packet capture.
+NIO udp-f6b69540-6fc0-4b76-956c-7f8ff7560f6e: capturing to file '/Users/ruisantos/Desktop/fr/project/project/project-files/captures/Switch1_Ethernet2_to_ESW2_FastEthernet10.pcap'
+NIO udp-f6b69540-6fc0-4b76-956c-7f8ff7560f6e: ending packet capture.
+NIO udp-f6b69540-6fc0-4b76-956c-7f8ff7560f6e: capturing to file '/Users/ruisantos/Desktop/fr/project/project/project-files/captures/Switch1_Ethernet2_to_ESW2_FastEthernet10.pcap'
+NIO udp-f6b69540-6fc0-4b76-956c-7f8ff7560f6e: ending packet capture.
+Hypervisor: closing control sockets.
+Hypervisor: closing remote client connections.
+Shutdown in progress...
+Shutdown completed.

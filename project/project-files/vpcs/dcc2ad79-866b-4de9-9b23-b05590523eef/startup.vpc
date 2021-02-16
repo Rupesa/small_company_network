@@ -1,0 +1,3 @@
+set pcname Datacenter_Private
+ip 10.133.1.2 10.133.1.1 24
+ip 2001:82:0:1::2/64
